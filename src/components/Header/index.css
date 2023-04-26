@@ -1,0 +1,43 @@
+header {
+ display: flex;
+ background-color: #5896E6;
+ height: 5vh;
+ width: 100%;
+}
+
+p{
+    color: #fff;
+    font-size: 8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.menu-div, .user-name-div, .sales-report-div {
+    display: flex;
+    align-items: center;
+}
+
+.menu-div {
+    width:  140px;
+    margin-left: 10px;
+}
+
+.user-name-div {
+    height: 100%;
+    width: 300px;
+
+}
+
+.red-icon-div {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+.sales-report-div {
+    width: 200px;
+    margin-left: 520px;
+}
