@@ -1,0 +1,24 @@
+form {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+.form-label {
+    margin-right: 8px;
+    color: rgb(72, 70, 70);
+}
+
+
+.form-select {
+    background-color: #fff;
+    border: 1px solid rgb(158, 151, 151);
+    padding: 1px;
+    color: rgb(72, 70, 70);
+    font-size: 13px;
+
+}
