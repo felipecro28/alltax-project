@@ -38,13 +38,16 @@ const options = {
     },
   },
   scales: {
-    y: {
+    x: {
       title: {
         display: true,
         text: "Vendas",
       },
+      grid: {
+        display: false,
+      },
     },
-    x: {
+    y: {
       title: {
         display: true,
         text: "Meses",
