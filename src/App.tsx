@@ -41,7 +41,7 @@ const options = {
     x: {
       title: {
         display: true,
-        text: "Vendas",
+        text: "Meses",
       },
       grid: {
         display: false,
@@ -50,7 +50,7 @@ const options = {
     y: {
       title: {
         display: true,
-        text: "Meses",
+        text: "Vendas",
       },
     },
   },
