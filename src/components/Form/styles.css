@@ -11,14 +11,14 @@ form {
 .form-label {
     margin-right: 8px;
     color: rgb(72, 70, 70);
+    font-size: 13px;
 }
 
 
 .form-select {
     background-color: #fff;
     border: 1px solid rgb(158, 151, 151);
-    padding: 1px;
+    padding: 1px 5px;
     color: rgb(72, 70, 70);
     font-size: 13px;
-
 }
