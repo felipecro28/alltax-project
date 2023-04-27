@@ -19,7 +19,7 @@ const Form: React.FC<{ listenBrandChange: (brand: string) => void }> = ({
         product.categoria === categoria ? product.produto : ""
       )
     ),
-  ].filter((p) => p != "");
+  ].filter((product) => product != "");
 
   const marcas = [
     ...new Set(
@@ -27,7 +27,7 @@ const Form: React.FC<{ listenBrandChange: (brand: string) => void }> = ({
         product.produto === produto ? product.marca : ""
       )
     ),
-  ].filter((p) => p != "");
+  ].filter((product) => product != "");
 
   return (
     <form>
